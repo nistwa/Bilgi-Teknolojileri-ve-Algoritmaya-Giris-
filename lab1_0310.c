@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-
 /*
 int main() {
 	printf("Hello World!");
@@ -12,7 +9,8 @@ int main() {
     printf("Numara: 170525844\n");
 return 0;
 }
-*/
+
+
 
 /*
 int main() {
@@ -26,12 +24,10 @@ return 0;
 */
 
 
-/* YANLIÞ KOD
 
-// Laboratuvar Uygulamasý L01U03
-
+/* YANLIS KOD
+// Laboratuvar Uygulamasi L01U03
 #include <stdio.h>;
-
 
 {
 
@@ -42,8 +38,10 @@ Return 0;
  }
  */
 
- // DüZENLENMÝÞ KOD
 
+
+/*
+ // DÃ¼ZENLENMIS KOD
  #include <stdio.h>
 
 int main() {
@@ -51,3 +49,4 @@ int main() {
 
 return 0;
 }
+*/
