@@ -1,0 +1,205 @@
+#include <stdio.h>
+
+int main() {
+    // BLM1005 Lab01.5 - Ogrenci No Sonu: 4 (Kalp) - 16x16 Matris Cizimi
+    // SATIR 1 & 2: Mavi Arkaplan (16 Piksel)
+
+    //----------------------------------------------------------------------
+    // Satir 1
+    printf("\x1b[104m");
+    printf("                                ");
+    printf("\x1b[0m");
+    printf("\n");
+
+    // Satir 2
+    printf("\x1b[104m");
+    printf("                                ");
+    printf("\x1b[0m");
+    printf("\n");
+
+    //----------------------------------------------------------------------
+    // SATIR 3: 4 Mavi / 3 Siyah / 3 mavi / 3 siyah / 4 mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("        "); // 4 Mavi
+    printf("\x1b[40m"); printf("      ");       // 3 Siyah
+    printf("\x1b[104m"); printf("      ");     // 3 mavi
+    printf("\x1b[40m"); printf("      ");       // 3 Siyah
+    printf("\x1b[104m"); printf("      ");     // 4 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 4: 3 Mavi / 1 Siyah / 3 Kirmizi / 1 Siyah / 1 mavi / 1 Siyah / 3 Kirmizi / 1 Siyah / 1 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("      "); // 3 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("      ");   // 3 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("  ");     // 1 mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("      ");   // 3 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("    ");   // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+    //----------------------------------------------------------------------
+    // SATIR 5: 2 Mavi / 1 Siyah / 5 kirmizi  / 1 siyah / 2 kirmizi / 1 beyaz / 2 kirmizi / 1 siyah / 1 mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("    "); // 2 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("          "); // 5 kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("    "); // 2 Kirmizi
+    printf("\x1b[47m"); printf("  ");     // 1 Beyaz (Yansima)
+    printf("\x1b[101m"); printf("    ");     // 2 kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 siyah
+    printf("\x1b[104m"); printf("  "); // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 6: 2 Mavi / 1 Siyah / 9 Kirmizi /1 beyaz/ 1 kirmizi/ 1 Siyah / 1 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("    "); //  Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("                  "); // 9 Kirmizi
+    printf("\x1b[47m"); printf("  ");     // 1 Beyaz (Yansima)
+    printf("\x1b[101m"); printf("  ");     // 1 kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("  ");     // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 7: 2 Mavi / 1 Siyah / 11 Kirmizi / 1 Siyah / 1 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("    "); // 2 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("                      "); // 11 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("  ");     // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+    //----------------------------------------------------------------------
+    // SATIR 8: 2 Mavi / 1 Siyah / 11 Kirmizi / 1 Siyah / 1 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("    "); // 2 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("                      "); // 11 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("  ");     // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+    //----------------------------------------------------------------------
+    // SATIR 9: 2 Mavi / 1 Siyah / 11 Kirmizi / 1 Siyah / 1 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("    "); // 2 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("                      "); // 11 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("  ");     // 1 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+
+    //----------------------------------------------------------------------
+    // SATIR 10: 3 Mavi / 1 Siyah / 9 Kirmizi / 1 Siyah / 2 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("      "); // 3 Mavi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[101m"); printf("                  "); // 9 Kirmizi
+    printf("\x1b[40m"); printf("  ");     // 1 Siyah
+    printf("\x1b[104m"); printf("    ");     // 2 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 11: 3 Mavi / 1 Siyah / 9 Kirmizi / 1 Siyah / 2 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("      "); // 3 Mavi
+    printf("\x1b[40m"); printf("  ");       // 1 Siyah
+    printf("\x1b[101m"); printf("                  "); // 9 Kirmizi
+    printf("\x1b[40m"); printf("  ");       // 1 Siyah
+    printf("\x1b[104m"); printf("    ");       // 2 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 12: 4 Mavi / 1 Siyah / 7 Kirmizi / 1 Siyah / 3 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("        "); // 4 Mavi
+    printf("\x1b[40m"); printf("  ");       // 1 Siyah
+    printf("\x1b[101m"); printf("              "); // 7 Kirmizi
+    printf("\x1b[40m"); printf("  ");       // 1 Siyah
+    printf("\x1b[104m"); printf("      ");       // 3 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 13: 5 Mavi / 1 Siyah / 5 Kirmizi / 1 Siyah / 4 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("          "); // 5 Mavi
+    printf("\x1b[40m"); printf("  ");         // 1 Siyah
+    printf("\x1b[101m"); printf("          ");   // 5 Kirmizi
+    printf("\x1b[40m"); printf("  ");         // 1 Siyah
+    printf("\x1b[104m"); printf("        ");       // 4 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 14: 6 Mavi / 1 Siyah / 3 Kirmizi / 1 Siyah / 5 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("            "); // 6 Mavi
+    printf("\x1b[40m"); printf("  ");           // 1 Siyah
+    printf("\x1b[101m"); printf("      ");     // 3 Kirmizi
+    printf("\x1b[40m"); printf("  ");           // 1 Siyah
+    printf("\x1b[104m"); printf("          ");     // 5 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 15: 7 Mavi / 1 Siyah / 1 Kirmizi / 1 Siyah / 6 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("              "); // 7 Mavi
+    printf("\x1b[40m"); printf("  ");             // 1 Siyah
+    printf("\x1b[101m"); printf("  ");         // 1 Kirmizi
+    printf("\x1b[40m"); printf("  ");             // 1 Siyah
+    printf("\x1b[104m"); printf("            ");     // 6 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 16: 8 Mavi / 1 Siyah / 8 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("                "); // 8 Mavi
+    printf("\x1b[40m"); printf("  ");           // 1 Siyah
+    printf("\x1b[104m"); printf("              ");     // 8 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+
+    //----------------------------------------------------------------------
+    // SATIR 17: 8 Mavi / 7 Mavi
+    //----------------------------------------------------------------------
+    printf("\x1b[104m"); printf("                "); // 9 Mavi
+    printf("\x1b[104m"); printf("                ");     // 6 Mavi
+    printf("\x1b[0m");
+    printf("\n");
+
+    printf("\x1b[0m");
+
+    return 0;
+}
